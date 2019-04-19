@@ -14,6 +14,7 @@ namespace CrmBL.Model
         public virtual Seller Seller { get; set; }
         public DateTime Created { get; set; }
 
+        public decimal Sum { get; set; }
         public virtual ICollection <Sell> Sells { get; set; }
 
         public override string ToString()

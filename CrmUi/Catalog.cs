@@ -103,24 +103,26 @@ namespace CrmUi
 
         //private void ShowFormToEditElement(dynamic id)
         //{
-        //    dynamic element; 
-        //    dynamic form=null;
+        //    dynamic element;
+        //    dynamic form = null;
         //    if (id != null)
         //    {
         //        if (typeof(T) == typeof(Product))
         //        {
-        //            element =  set.Find(id) as Product ;
+        //            element = set.Find(id) as Product;
         //            form = new ProductForm(element);
-                    
+
         //        }
 
-        //        else if (typeof(T) == typeof(Customer)) {
+        //        else if (typeof(T) == typeof(Customer))
+        //        {
         //            element = set.Find(id) as Customer;
         //            form = new CustomerForm(element as Customer);
-                    
+
         //        }
 
-        //        else if (typeof(T) == typeof(Seller)) {
+        //        else if (typeof(T) == typeof(Seller))
+        //        {
         //            element = set.Find(id) as Seller;
         //            form = new SellerForm(element as Seller);
         //        }
